@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            font-family: 'Open Sans'
+        }
+    </style>
+    <!-- imports -->
+    <title>Login Page</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Login Page</h1>
+<br>
+<!-- style="display:flex;justify-content: center;" -->
+    <form action="#" >
+        <table>
+            <tr>
+                <td>
+                    <label for="uname">Username:</label>
+                </td>
+                <td>
+                    <input type="text" name="uname" id="uname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password: </label>
+                </td>
+                <td>
+                    <input type="password" name="pass" id="pass">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City of <br> Employment:</label>
+                </td>
+                <td>
+                    <input type="text" name="city" id="city">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="server">Web Server:</label>
+                </td>
+                <td>
+                    <select name="server" id="server" >
+                        <option value="#">-- Select a Server --</option>
+                        <option value="aapche">Apache Server</option>
+                        <option value="nginx">nginx Server</option>
+                        <option value="mysql">MySQL Server</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="role">Please specify <br> your role:</label>
+                </td>
+                <td>
+                    <br>
+                    <input type="radio" name="role" id="admin" value="admin">
+                    <label for="admin">Admin</label>
+                    <br>
+                    <input type="radio" name="role" id="engineer" value="engineer">
+                    <label for="admin">Engineer</label>
+                    <br>
+                    <input type="radio" name="role" id="manager" value="manager">
+                    <label for="admin">Manager</label>
+                    <br>
+                    <input type="radio" name="role" id="guest" value="guest">
+                    <label for="admin">Guest</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="check">Single Sign-on <br> to the following:</label>
+                </td>
+                <td>
+                    <br>
+                    <input type="checkbox" name="check" id="mail" value="mail">
+                    <label for="mail">Mail</label>
+                    <br>
+                    <input type="checkbox" name="check" id="payroll" value="payroll">
+                    <label for="payroll">Payroll</label>
+                    <br>
+                    <input type="checkbox" name="check" id="self_service" value="self_service">
+                    <label for="self_service">Self-Service</label>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <br>
+                    <button type="button" onClick="window.location.href='https://github.com/Rezwoan/webdev_class';">Login</button>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

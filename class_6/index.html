@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>colspan_rowspan</title>
+
+     <!-- imports -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="div1">
+      <table class="table">
+        <tr>
+          <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+          <td rowspan="6" class="hours b_r" >hours</td>
+          <td>Mon</td>
+          <td>Tue</td>
+          <td>Wed</td>
+          <td>Thu</td>
+          <td>Fri</td>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Arts</td>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Arts</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="lunch">Lunch</td>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td rowspan="2" colspan="2" class="project b_l">Project</td>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
