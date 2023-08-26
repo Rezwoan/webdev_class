@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.div_0{
+
+    text-align: center;
+}
+
+.outline {
+    color: #fff;
+    text-shadow:#000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+    #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+    z-index: -1;
+    opacity: 0.6;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.con{
+    margin: 60px -10px;
+    position: absolute; top: 0; width: 100%;
+    font-size: 50px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    padding-top: 40px;
+    margin-left: 25%;
+  }
+
+
+
+
+.h2{
+    padding: 0px 0px 5px 0px;
+}
+
+.p{
+    inline-size: 300px;
+    padding-bottom: 25px;
+}
+
+
+.ico{
+    padding: 10px 10px 10px;
+}
+
+.social{
+    padding-top: 20px;
+    word-spacing: 1.5em;
+}
+
+
+.div_2{
+    background-color: #5925E8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.lable{
+    display: inline;
+}
+
+
+  .input-container {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+  }
+
+  .icon {
+    padding: 10px;
+    background: #EED6FF;
+    color: gray;
+    min-width: 20px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+
+
+  .t_area{
+    resize: none;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .btn {
+    background-color: white;
+    color: darkblue;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    opacity: 0.9;
+    border-radius: 5px;
+  }
