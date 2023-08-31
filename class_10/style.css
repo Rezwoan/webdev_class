@@ -1,0 +1,173 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+.logo{
+  font-family: 'Raleway', sans-serif !important;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.pname{
+  padding-top: 20px;
+}
+
+  ul.topnav li {float: right;
+}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 22px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #04AA6D;}
+  
+  ul.topnav li.left {float: left;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.left, 
+    ul.topnav li {float: none;}
+  }
+
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    padding: 20px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    padding: 20px;
+    flex: 50%;
+    text-align: left;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+
+
+  .imgbg {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(yellow, orange, pink, purple, blue);
+    animation: animate 1.2s linear infinite;
+    z-index: -1;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .profile {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+
+  .dis{
+    text-align: center !important;
+    padding: 10px;
+  }
+
+  .pdis{
+    padding: 10px 30px 30px 10px;
+  }
+
+
+  .icon-div{
+    padding: 20px;
+    padding-right: 30px;
+    flex: 33%;
+  }
+.icon{
+  padding: 10px;
+}
+
+
+.btn {
+  background-color: #555555;; 
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 20px; 
+  cursor: pointer; 
+  border-radius: 12px;
+}
+
+.btn a{
+  text-decoration: none;
+}
+.btn a:visited{
+  color: #000000;
+}
+
+.btn a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.1s;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  transition: 0.1s;
+}
